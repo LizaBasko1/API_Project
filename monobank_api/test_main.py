@@ -35,7 +35,7 @@ def test_check_content_type_headers():
 
 
 # -----------------------------------------------vcr lib----------------------------------------------
-@vcr.use_cassette('fixtures/cassettes/monobank_get.yaml')
+@vcr.use_cassette('monobank_api/cassettes/monobank_get.yaml')
 def test_get_google_home_page():
     url = construct_url(BASIC_URL, ACTIVITY_API)
     response = requests.get(url)
