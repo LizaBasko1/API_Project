@@ -1,0 +1,6 @@
+{
+   "type":"string",
+   "supplier":"string",
+   "gpid":"string",
+   "quantity":"string"
+}

@@ -1,0 +1,11 @@
+{
+   "type":"object",
+   "properties":{
+      "productAttributes => [storeBarcode]":{
+         "type":"string"
+      }
+   },
+   "required":[
+      "productAttributes => [storeBarcode]"
+   ]
+}

@@ -1,0 +1,19 @@
+{
+   "type":"object",
+   "properties":{
+      "sku":{
+         "type":"string"
+      },
+      "responseCode":{
+         "type":"string"
+      },
+      "status":{
+         "type":"string"
+      }
+   },
+   "required":[
+      "sku",
+      "responseCode",
+      "status"
+   ]
+}

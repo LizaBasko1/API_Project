@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome7",
+    "definitions": {
+        "Welcome7": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "errorCategory": {
+                    "type": "string"
+                },
+                "responseCode": {
+                    "type": "string"
+                },
+                "fieldErrors": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/FieldError"
+                    }
+                }
+            },
+            "required": [
+                "errorCategory",
+                "fieldErrors",
+                "responseCode"
+            ],
+            "title": "Welcome7"
+        },
+        "FieldError": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "fieldName": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "fieldName",
+                "message"
+            ],
+            "title": "FieldError"
+        }
+    }
+}

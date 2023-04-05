@@ -1,0 +1,11 @@
+{
+   "type":"string",
+   "supplier":"string",
+   "gpid":"string",
+   "quantity":"string",
+   "sku":[
+      {
+         "catalogFamily":"string"
+      }
+   ]
+}
