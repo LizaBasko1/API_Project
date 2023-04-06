@@ -7,7 +7,7 @@ from abc import ABC, abstractmethod, ABCMeta
 
 
 class Base(ABC):
-    BASIC_URL = "https://product-api.services.preprod.systems/product/v1"
+    BASIC_URL = "https://product-api/v2"
 
     @staticmethod
     def construct_url(api, common_url=BASIC_URL):
